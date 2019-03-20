@@ -1,3 +1,3 @@
 package ubb.at.group.androidthingsapp
 
-data class SensorData(val rainData: String? = null, val waterData: String? = null)
+data class SensorData(val rain: String? = null, val waterLevel: String? = null)

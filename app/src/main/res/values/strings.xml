@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AndroidThingsApp</string>
+    <string name="name_channel">Sensors</string>
+    <string name="desc_channel">Sends data updates regarind the connected water level and raindrop sensors.</string>
 </resources>
