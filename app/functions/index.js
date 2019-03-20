@@ -3,16 +3,21 @@ const admin = require('firebase-admin');
 admin.initializeApp();
 
 exports.sendUpdateNotification = 
-    functions.database.ref('/history')
-    .onWrite((change, context) => {
+    functions.database.ref('/history/{entry}')
+    .onCreate((snap, context) => {
+        const data = snap.val();
+
+        const waterLevel = snap.child("waterLevel").val();
+        const rain = snap.child("rain").val();
+
         var message = {
             notification: {
-                title: "Data update",
-                body: "Something changed, alright??"
+                title: "Sensor readings",
+                body: `Received new data: Water level info: ${waterLevel}, Rain info: ${rain}` 
             }, 
             topic: "all"
         };
-        admin.messaging().send(message)
+        return admin.messaging().send(message)
     })
 
     
