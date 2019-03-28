@@ -1,4 +1,4 @@
-.MainContent {
+/* .MainContent {
   width: 80%;
   height: fit-content;
   margin-left: auto;
@@ -25,12 +25,48 @@
   margin-left: 55px;
 }
 
-.Schematics > img {
-  width: 500px;
-  height: 700px;
-}
+
 
 .Screenshots > img {
   width: 90%;
   height: 350px;
+} */
+
+h2 {
+    font-family: "Roboto","Helvetica",arial,sans-serif; 
+    font-size: 30px;
+    font-weight: 200;
+    letter-spacing: 0;
+    line-height: 1.33;
+    margin: 0;
+    color:black;
+}
+.Screenshots > .photos > img {
+  
+  display: inline-flex;
+  justify-content: center;
+  /* width:  auto;
+  height: auto; */
+
+  width: 45%;
+  margin-inline-start: 1.5%;
+  margin-inline-end: 1.5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#logo{
+  width: auto;
+  height: auto;
+  max-height: 350px;
+  max-width: 100px;
+}
+
+.container-bg {
+  background: lightslategray;
+}
+
+.Schematics > img {
+  display: flex;
+  align-content: center;
 }

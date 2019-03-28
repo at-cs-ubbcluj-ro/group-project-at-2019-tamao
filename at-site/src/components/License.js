@@ -1,9 +1,13 @@
-import React from "react";
-import './App.css';
+import React, { Fragment } from "react";
+import '../App.css';
+import { Button, Typography } from "@material-ui/core";
 
 function License() {
     return (
-        <div className="License">
+        <Fragment>
+<div className="License">
+<Typography variant="headline" color="inherit" style={{ fontSize: 14}}>
+
             <h2>License</h2>
             <p>Copyright (c) 2019 Android Things class.</p>
             <p>Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -21,7 +25,10 @@ function License() {
                 LIABILITY, WHETHER IN AN <br/> ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
                 OUT OF OR IN CONNECTION WITH THE <br/> SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
                 SOFTWARE.</p>
+                </Typography>
         </div>
+        </Fragment>
+        
     );
 }
 

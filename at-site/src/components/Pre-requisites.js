@@ -1,5 +1,5 @@
 import React from "react";
-import './App.css';
+import '../App.css';
 import List_requisites from "./List_requisites";
 
 function Pre_requisites(props) {

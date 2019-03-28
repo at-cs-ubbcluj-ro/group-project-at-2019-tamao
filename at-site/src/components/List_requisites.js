@@ -1,5 +1,5 @@
 import React from "react";
-import './App.css';
+import '../App.css';
 
 function List_requisites() {
     return (
@@ -8,10 +8,10 @@ function List_requisites() {
                 <p>Raspberry Pi 3 Model B</p>
             </li>
             <li>
-                <p>Rasbarian Stretch</p>
+                <p>OS: Raspbian Stretch</p>
             </li>
             <li>
-                <p>Jumpers</p>
+                <p>Jumper cables</p>
             </li>
             <li>
                 <p>Led</p>
