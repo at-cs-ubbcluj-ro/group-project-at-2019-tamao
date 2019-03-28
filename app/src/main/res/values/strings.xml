@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Water level surveillance</string>
+    <string name="name_channel">Sensors</string>
+    <string name="desc_channel">Sends data updates regarind the connected water level and raindrop sensors.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Things</string>
+    <string name="nav_header_subtitle">Water level surveillance/monitoring</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>
