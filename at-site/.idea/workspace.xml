@@ -50,8 +50,8 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/overview.js" />
-        <option value="$PROJECT_DIR$/src/Pre-requisites.js" />
-        <option value="$PROJECT_DIR$/src/List_requisites.js" />
+        <option value="$PROJECT_DIR$/src/PreRequisites.js" />
+        <option value="$PROJECT_DIR$/src/ListRequisites.js" />
         <option value="$PROJECT_DIR$/src/Schematics.js" />
         <option value="$PROJECT_DIR$/src/Screenshots.js" />
         <option value="$PROJECT_DIR$/src/License.js" />
@@ -311,7 +311,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/List_requisites.js">
+    <entry file="file://$PROJECT_DIR$/src/ListRequisites.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-221">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
@@ -325,7 +325,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pre-requisites.js">
+    <entry file="file://$PROJECT_DIR$/src/PreRequisites.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />

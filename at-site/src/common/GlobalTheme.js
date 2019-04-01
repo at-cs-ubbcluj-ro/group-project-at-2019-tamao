@@ -20,7 +20,7 @@ export const palette = {
 export const theme = createMuiTheme({
   direction: "ltr",
   palette,
-  type: "dark",
+  type: "light",
   typography: {
     fontFamily: "Open Sans",
     fontSize: "14px",
