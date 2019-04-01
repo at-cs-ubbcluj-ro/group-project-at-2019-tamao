@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import "../App.css";
-import { Button, Typography } from "@material-ui/core";
+import { Typography } from "@material-ui/core";
 
 function License() {
   return (

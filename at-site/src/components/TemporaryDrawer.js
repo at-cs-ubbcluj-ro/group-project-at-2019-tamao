@@ -1,12 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
-import { IconButton } from '@material-ui/core';
+import { IconButton, SwipeableDrawer } from '@material-ui/core';
 import MenuIcon from "@material-ui/icons/Menu";
 import { Link, animateScroll as scroll } from "react-scroll";
 
@@ -78,7 +77,11 @@ class TemporaryDrawer extends React.Component {
               >
                 <MenuIcon />
         </IconButton>
-        <Drawer open={this.state.left} onClose={this.toggleDrawer('left', false)}>
+        <SwipeableDrawer 
+        open={this.state.left} 
+        onClose={this.toggleDrawer('left', false)}
+        onOpen={this.toggleDrawer('left', true)}
+        >
           <div
             tabIndex={0}
             role="button"
@@ -87,7 +90,7 @@ class TemporaryDrawer extends React.Component {
           >
             {sideList}
           </div>
-        </Drawer>
+        </SwipeableDrawer>
       </div>
     );
   }

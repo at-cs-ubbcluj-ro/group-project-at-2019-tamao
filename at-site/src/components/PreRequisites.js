@@ -8,7 +8,7 @@ function PreRequisites(props) {
     <div className="PreRequisites" id={props.name}>
       <Typography variant="headline" color="inherit" style={{ fontSize: 14 }}>
 
-      <h2>{props.name}</h2>
+      <h2>Pre-requisites</h2>
       </Typography>
       <Typography variant="body1" color="inherit" style={{ fontSize: 14 }}>
       <ListRequisites />

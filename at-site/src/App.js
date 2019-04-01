@@ -22,6 +22,7 @@ import Toolbar from "@material-ui/core/Toolbar";
 import navBarLogo from "./Images/androidthings_logo.svg";
 import TemporaryDrawer from "./components/TemporaryDrawer";
 // import 'bootstrap/dist/css/bootstrap.min.css'
+import { animateScroll as scroll } from "react-scroll";
 
 
 const styles = theme =>
@@ -64,9 +65,8 @@ export default withStyles(styles)(
   class App extends Component {
     state = { drawerIsOpen: false }
 
-    handleDrawerOpen = () => {
-      console.log("Hello");
-      this.setState({ drawerIsOpen: true });
+    scrollToTop = () => {
+      scroll.scrollToTop();
     };
 
     render() {
@@ -85,7 +85,7 @@ export default withStyles(styles)(
                 <MenuIcon />
               </IconButton> */}
               <TemporaryDrawer />
-              <img id="logo" src={navBarLogo} alt="Logo" />
+              <img id="logo" src={navBarLogo} alt="Logo" onClick={this.scrollToTop}/>
             </Toolbar>
           </AppBar>
           
