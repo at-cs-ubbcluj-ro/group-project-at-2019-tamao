@@ -18,7 +18,7 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginTop="36dp"
-            app:srcCompat="@drawable/raindrop"
+            app:srcCompat="@drawable/raindrop2"
             android:contentDescription="@string/nav_header_desc" />
 
     <TextView
