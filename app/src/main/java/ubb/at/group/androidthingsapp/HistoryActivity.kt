@@ -21,21 +21,9 @@ class HistoryActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_history)
-        //
+        title = "History"
+
         val ref = FirebaseDatabase.getInstance().reference.child("history")
-        //        ref.addValueEventListener(object : ValueEventListener {
-        //            override fun onDataChange(dataSnapshot: DataSnapshot) {
-        //                // This method is called once with the initial value and again
-        //                // whenever data at this location is updated.
-        //                val value = dataSnapshot.getValue(SensorData::class.java)
-        //                Log.d("tag", "Value is: " + value!!)
-        //            }
-        //
-        //            override fun onCancelled(error: DatabaseError) {
-        //                // Failed to read value
-        //                Log.w("tag", "Failed to read value.", error.toException())
-        //            }
-        //        })
         val options = FirebaseRecyclerOptions.Builder<SensorData>().setQuery(ref, SensorData::class.java).build()
         val adapter = object : FirebaseRecyclerAdapter<SensorData, ViewHolder>(options) {
             override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
