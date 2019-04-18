@@ -1,0 +1,96 @@
+/* .MainContent {
+  width: 80%;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.MainContent > hr {
+  width: 90%;
+  background-color: darkgray;
+}
+
+.Overview > h2{
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-family: "Google Sans","Helvetica",arial,sans-serif;;
+}
+
+.Overview, .Screenshots, .PreRequisites, .Schematics, .License, .Build {
+  color: #4b4b4b;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  margin-left: 55px;
+}
+
+
+/* h1 {
+  font-family: "Roboto","Helvetica",arial,sans-serif; 
+  font-size: 30px;
+  font-weight: 450;
+  letter-spacing: 0;
+  line-height: 1.33;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-right: 5px;
+  color:#424242;
+} */
+h2 {
+    font-family: "Roboto","Helvetica",arial,sans-serif; 
+    font-size: 30px;
+    font-weight: 450;
+    letter-spacing: 0;
+    line-height: 1.33;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    color:#424242;
+}
+.Screenshots > .photos > img {
+  
+  display: inline-flex;
+  justify-content: center;
+  /* width:  auto;
+  height: auto; */
+
+  width: 45%;
+  margin-inline-start: 1.5%;
+  margin-inline-end: 1.5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#logo{
+  width: auto;
+  height: auto;
+  max-height: 400px;
+  max-width: 120px;
+}
+
+.container-bg {
+  background: #c6c9ce;
+}
+
+
+.SchematicsHeader{
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.SchematicsImage {
+  display: flex;
+  justify-content: center;
+}
+
+.SchematicsImage  > img{
+  /* width: 100%;*/
+  width: 80%;
+  height: 80%;
+  margin-bottom: 15px;
+  /* object-fit: contain; */
+}
+.TitleDiv {
+  display: inline-block;
+}
