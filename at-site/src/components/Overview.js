@@ -12,7 +12,7 @@ function Overview(props) {
       <p>
         <Typography variant="body1" align="left">
           The aim of the project is to demonstrate how to use a water sensor and
-          raindrop module to measure the water level. We take the imput of a
+          raindrop module to measure the water level. We take the input of a
           water sensor, which was placed in a container, such that we can detect
           water raising/lowering. We also have a raindrop module, which detects
           drops of water that fall on it and after a (programmable) number of

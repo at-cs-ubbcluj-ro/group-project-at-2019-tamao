@@ -3,7 +3,7 @@ import Typography from "@material-ui/core/Typography";
 
 export default class Title extends Component {
   handleClick = () => {
-    window.location = "https://github.com/davidleiti/Android-Things-Group";
+    window.location = "https://github.com/at-cs-ubbcluj-ro/group-project-at-2019-tamao";
   }
   
   render() {
